@@ -6,6 +6,7 @@ import Datascience from './Componenet/Datascience'
 import Cybersecurity from './Componenet/Cybersecurity'
 import Career from './Componenet/Career'
 import Navbar from './Componenet/Navbar'
+import All from './Componenet/All'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <BrowserRouter>
         <Navbar/>
           <Routes>
-          <Route path='/all' element={<Navbar/>}/>
+          <Route path='/all' element={<All/>}/>
             <Route path='/fullstack' element={<Fullstack/>}/>
             <Route path='/datascience' element={<Datascience/>}/>
             <Route path='/cybersecurity' element={<Cybersecurity/>}/>
