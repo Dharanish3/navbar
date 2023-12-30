@@ -8,12 +8,7 @@ function All() {
       image:
         "https://www.codilar.com/wp-content/uploads/2023/02/7-tips-on-how-to-improve-the-UXUI-design-of-a-web-application.png",
     },
-    {
-      name: "UI Developer",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      image:
-        "https://www.guvi.in/blog/wp-content/uploads/2023/12/Feature-image-How-to-Install-Adobe-XD-on-Windows-A-Step-by-Step-Guide.webp",
-    },
+ 
     {
       name: "Mern Stack",
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
