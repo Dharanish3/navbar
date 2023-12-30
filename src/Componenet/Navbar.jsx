@@ -46,7 +46,7 @@ function Navbar() {
           </ul>
         </div>
       </nav>
-    <All/>
+    
      
     </>
   );
