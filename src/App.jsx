@@ -85,7 +85,7 @@ function App() {
       category : "Hack",
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
       image:
-        "https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner-2048x1152.png",
+        "https://www.guvi.in/blog/wp-content/uploads/2021/03/The-Ultimate-%E2%80%A8Cybersecurity-Roadmap-for-Beginners.webp",
     },
     {
       name: "Cyber Security",
@@ -93,7 +93,7 @@ function App() {
       category : "Hack",
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
       image:
-        "https://www.guvi.in/blog/wp-content/uploads/2021/03/Blog-9-2048x1072.png",
+        "https://www.guvi.in/blog/wp-content/uploads/2021/03/The-Ultimate-%E2%80%A8Cybersecurity-Roadmap-for-Beginners.webp",
     },
     {
       name: "Cyber Crime",
