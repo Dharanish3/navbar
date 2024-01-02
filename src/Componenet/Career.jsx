@@ -1,34 +1,13 @@
 import React from 'react'
 
-function Career() {
-    const card = [
-        
-        {
-          name: "Ui & UX",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-          image:
-            "https://www.guvi.in/blog/wp-content/uploads/2023/11/top-ways-to-assess-soft-skills-in-full-stack-developers.webp",
-        },
-        {
-          name: "Automation Test Engineer",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-          image:
-            "https://www.guvi.in/blog/wp-content/uploads/2023/11/Feature-image-Full-Stack-Developer-vs-Software-Engineer-.webp",
-        },
-        {
-          name: "Machine Learning Engineer ",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-          image:
-            "https://www.guvi.in/blog/wp-content/uploads/2023/11/Feature-image-Top-High-Paying-Non-Coding-Jobs-in-Data-Science.webp",
-        }
-        
-      ];
+function Career({card}) {
+   
     
   return (
     <>
          <div class="container">
         <div class="row">
-          {card.map((data) => {
+          {card.filter((data) => data.category === 'Career').map((data) => {
             return (
               <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="card h-100">

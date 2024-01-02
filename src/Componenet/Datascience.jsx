@@ -1,33 +1,13 @@
 import React from 'react'
 
-function Datascience() {
-    const card = [
-        
-        
-        {
-          name: "Data Science ",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-          image:
-            "https://www.guvi.in/blog/wp-content/uploads/2023/11/Feature-image-Top-High-Paying-Non-Coding-Jobs-in-Data-Science.webp"
-        },
-        {
-          name: "Machine Learning",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-          image:
-            "https://www.guvi.in/blog/wp-content/uploads/2023/10/Feature-image-Best-books-to-learn-data-science.webp"
-        },
-        {
-          name: "Artificial Intelligence",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-          image:
-            "https://www.guvi.in/blog/wp-content/uploads/2023/12/Feature-image-How-to-Install-Adobe-XD-on-Windows-A-Step-by-Step-Guide.webp"
-        }
-      ]
+function Datascience({card}) {
+   
   return (
     <>
        <div class="container">
         <div class="row">
-          {card.map((data) => {
+          {card.filter((data) => data.category === "Data")
+          .map((data) => {
             return (
               <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="card h-100">

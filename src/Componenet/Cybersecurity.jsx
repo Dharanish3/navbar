@@ -1,35 +1,14 @@
 import React from 'react'
 
-function Cybersecurity() {
-    const card = [
-        
-        
-        {
-          name: "Ethical Hacking",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-          image:
-            "https://www.guvi.in/blog/wp-content/uploads/2023/10/Feature-image-Best-books-to-learn-data-science.webp",
-        },
-        {
-          name: "Cyber security",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-          image:
-            "https://www.guvi.in/blog/wp-content/uploads/2023/10/Feature-image-Best-books-to-learn-data-science.webp",
-        },
-        {
-          name: "Hacking",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-          image:
-            "https://www.guvi.in/blog/wp-content/uploads/2023/10/Feature-image-Best-books-to-learn-data-science.webp",
-        },
-      ];
-    
+function Cybersecurity({card}) {
+   
 
   return (
     <>
          <div class="container">
         <div class="row">
-          {card.map((data) => {
+          {card.filter((data) => data.category === 'Hack')
+          .map((data) => {
             return (
               <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="card h-100">
